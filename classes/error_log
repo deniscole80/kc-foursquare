@@ -1,0 +1,65 @@
+[27-May-2021 18:01:37 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/foursqua/kc/classes/DB/conn_db.php on line 6
+[27-May-2021 18:01:37 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/foursqua/kc/classes/DB/conn_db.php on line 6
+[27-May-2021 18:01:37 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/foursqua/kc/classes/DB/conn_db.php on line 6
+[27-May-2021 18:01:37 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/foursqua/kc/classes/DB/conn_db.php on line 6
+[27-May-2021 18:01:37 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/foursqua/kc/classes/DB/conn_db.php on line 6
+[30-May-2021 18:07:24 America/New_York] PHP Notice:  Undefined index: email in /home/foursqua/kc/classes/controller.php on line 44
+[30-May-2021 18:07:24 America/New_York] PHP Notice:  Undefined index: password in /home/foursqua/kc/classes/controller.php on line 45
+[01-Jun-2021 17:23:25 America/New_York] PHP Notice:  Undefined index: userId in /home/foursqua/kc/classes/User.php on line 92
+[01-Jun-2022 08:24:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/foursq19/public_html/kc/classes/User.php:512
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(429): User->verifyEmail('funepoweim@gmai...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 512
+[01-Jun-2022 08:27:27 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/foursq19/public_html/kc/classes/User.php:512
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(429): User->verifyEmail('funepoweim@gmai...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 512
+[16-Jun-2022 09:14:33 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 6
+[18-Nov-2022 13:11:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::bulkRegisterCamp(), 5 passed in /home/foursq19/public_html/kc/classes/controller.php on line 170 and exactly 6 expected in /home/foursq19/public_html/kc/classes/User.php:178
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(170): User->bulkRegisterCamp(Array, '691491443', '464', '9', '2022-11-18 01:1...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 178
+[10-Apr-2023 10:33:55 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/foursq19/public_html/kc/classes/User.php:587
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(531): User->verifyEmail('mcgiftinson@gma...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 587
+[10-Apr-2023 10:42:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/foursq19/public_html/kc/classes/User.php:587
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(531): User->verifyEmail('mcgiftinson@gma...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 587
+[08-Jun-2023 19:08:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::bulkRegisterCamp(), 5 passed in /home/foursq19/public_html/kc/classes/controller.php on line 170 and exactly 6 expected in /home/foursq19/public_html/kc/classes/User.php:178
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(170): User->bulkRegisterCamp(Array, '574475520', '624', '9', '2023-06-08 07:0...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 178
+[12-Jun-2023 09:34:21 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/foursq19/public_html/kc/classes/User.php:587
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(531): User->verifyEmail('chrisman525@gma...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 587
+[16-Jun-2023 16:14:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::bulkRegisterCamp(), 5 passed in /home/foursq19/public_html/kc/classes/controller.php on line 170 and exactly 6 expected in /home/foursq19/public_html/kc/classes/User.php:178
+Stack trace:
+#0 /home/foursq19/public_html/kc/classes/controller.php(170): User->bulkRegisterCamp(Array, '603572190', '718', '9', '2023-06-16 04:1...')
+#1 {main}
+  thrown in /home/foursq19/public_html/kc/classes/User.php on line 178
+[13-Jul-2023 08:21:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[14-Jul-2023 03:09:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:37:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:37:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:37:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:37:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:37:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[03-Aug-2023 00:42:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Nov-2023 17:02:33 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home2/foursq19/public_html/kc/classes/User.php on line 333
+[19-Nov-2023 17:02:33 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home2/foursq19/public_html/kc/classes/User.php on line 333
+[19-Nov-2023 17:02:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/foursq19/public_html/kc/classes/User.php on line 337
+[19-Nov-2023 17:02:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/foursq19/public_html/kc/classes/Admin.php on line 51

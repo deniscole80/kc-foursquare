@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Foursquare Youth Camp</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="../../img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="../../css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="../../css/style.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark black">
+      <a class="navbar-brand text-danger" href="#">Foursquare YC</a>
+      <button class="navbar-toggler btn-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+        aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <div class="border border-danger text-center d-flex justify-content-center align-items-center" style="border-radius: 100px; padding:5px; width: 30px; height: 30px; background-color: black;">
+                  <span class="text-danger" style="font-size: 12px;">oo</span>
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary"
+              aria-labelledby="navbarDropdownMenuLink-55">
+              <a class="dropdown-item" href="#">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/.Navbar -->
+    <div style="width: 400px; margin: auto;">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs md-tabs nav-justified danger-color" role="tablist">
+            <li class="nav-item tabHeader" id="1">
+            <a class="nav-link active black-text" data-toggle="tab" href="#panel555" role="tab">
+                <i class="fas fa-plus"></i><br/>Register</a>
+            </li>
+            <li class="nav-item tabHeader" id="2">
+            <a class="nav-link black-text" data-toggle="tab" href="#panel666" role="tab">
+                <i class="fas fa-user"></i><br/>Profile</a>
+            </li>
+            <li class="nav-item tabHeader" id="3">
+            <a class="nav-link black-text" data-toggle="tab" href="#panel777" role="tab">
+                <i class="fas fa-history"></i><br/>History</a>
+            </li>
+        </ul>
+        <!-- Nav tabs -->
+        
+        <!-- Tab panels -->
+        <div class="tab-content">
+        
+            <!-- Panel 1 -->
+            <div class="tab-pane fade in show active p-3" id="panel555" role="tabpanel">
+        
+                <div class="d-flex flex-row justify-content-center">
+                    <!-- Default switch -->
+                    <span>Regular</span>&nbsp&nbsp
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitches">
+                        <label class="custom-control-label" for="customSwitches">Premium</label>
+                    </div>
+                </div>
+
+                <div id="regularDiv">
+
+                    <h5 class="mt-4 text-primary">Regular Registration Form</h5>
+
+                    <div class="form-group">
+                        <label for="firstname" class="grey-text">First Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname" class="grey-text">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="grey-text">Phone number <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="phone" placeholder="Enter phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="grey-text">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email address">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Age Group <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose age group</option>
+                            <option value="1" selected>0-5</option>
+                            <option value="2">6-10</option>
+                            <option value="3">10-20</option>
+                            <option value="4">20-30</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="grey-text">Gender <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose gender</option>
+                            <option value="1" selected>Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="grey-text">Coming with kids? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="1" selected>Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">How many kids?</label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="1" selected>1-5</option>
+                            <option value="2">5-10</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Are you a Foursquare member? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">District <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Lagos</option>
+                            <option value="no">Ibadan</option>
+                            <option value="no">Ekiti</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Arival Day <span class="text-danger">*</span></label>
+                        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                            <input placeholder="Select date" type="date" id="example" class="form-control">
+                            <label for="example">Arival Date...</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Do you have access to a house in camp? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="anyAmount" class="grey-text">Are you willing to support KC 2021 financially(Any amount) </label>
+                        <input type="number" class="form-control" id="anyAmount" placeholder="Enter the amount">
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button type="button" class="btn btn-rounded btn-danger"><i class="far fa-plus-square pr-2" aria-hidden="true"></i></i>Register Now</button>
+                    </div>
+
+                </div>
+
+                <div id="premiumDiv" style="display: none">
+
+                    <h5 class="mt-4 text-success">Premium Registration Form</h5>
+
+                    <div class="form-group">
+                        <label for="firstname" class="grey-text">First Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname" class="grey-text">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="grey-text">Phone number <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="phone" placeholder="Enter phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="grey-text">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email address">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Age Group <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose age group</option>
+                            <option value="1" selected>0-5</option>
+                            <option value="2">6-10</option>
+                            <option value="3">10-20</option>
+                            <option value="4">20-30</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="grey-text">Gender <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose gender</option>
+                            <option value="1" selected>Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="grey-text">Coming with kids? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="1" selected>Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">How many kids?</label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="1" selected>1-5</option>
+                            <option value="2">5-10</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Are you a Foursquare member? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">District <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Lagos</option>
+                            <option value="no">Ibadan</option>
+                            <option value="no">Ekiti</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Arival Day <span class="text-danger">*</span></label>
+                        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+                            <input placeholder="Select date" type="date" id="example" class="form-control">
+                            <label for="example">Arival Date...</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Do you have access to a house in camp? <span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select">
+                            <option value="" disabled>Choose answer</option>
+                            <option value="yes" selected>Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="grey-text">Kindly pick a category for your registration<span class="text-danger">*</span></label>
+                        <select class="browser-default custom-select" id="premiumAmount">
+                            <option value="" selected disabled>Choose answer</option>
+                            <option value="30">30,000</option>
+                            <option value="50">50,000</option>
+                            <option value="100">100,000</option>
+                            <option value="more">Others (Specify)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="amountDiv" style="display: none">
+                        <label for="otherAmount" class="grey-text">Specify amount <span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="otherAmount" placeholder="Enter amount">
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button type="button" class="btn btn-rounded btn-danger"><i class="far fa-plus-square pr-2" aria-hidden="true"></i></i>Register Now</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Panel 1 -->
+        
+            <!-- Panel 2 -->
+            <div class="tab-pane fade" id="panel666" role="tabpanel">
+        
+                <div class="d-flex justify-content-center">
+                    <div class="border border-danger mt-4 text-center d-flex justify-content-center align-items-center" style="border-radius: 100px; padding:20px; width: 100px; height: 100px; background-color: black;">
+                        <span class="text-danger" style="font-size: 20px;">oo</span>
+                    </div>
+                </div>
+
+                <h6 class="text-center">oladepo.olushina@gmail.com</h6>
+                <h6 class="text-center text-danger"><i class="far fa-user"></i> User</h6>
+
+                <div class="mt-4">
+                    <h4>Transaction History</h4>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="card z-depth-0 bordered">
+                          <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                2346573 - 23/04/2021
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                              Transaction
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card z-depth-0 bordered">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2346573 - 23/04/2021
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                              Transaction
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card z-depth-0 bordered">
+                          <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                2346573 - 23/04/2021
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                              Transaction
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Panel 2 -->
+
+            <!-- Panel 3 -->
+            <div class="tab-pane fade" id="panel777" role="tabpanel">
+        
+                <div class="table-responsive">
+                    <!--Table-->
+                    <table class="table table-striped">
+                  
+                      <!--Table head-->
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Name</th>
+                          <th>Surname</th>
+                          <th>Country</th>
+                          <th>City</th>
+                          <th>Position</th>
+                          <th>Age</th>
+                        </tr>
+                      </thead>
+                      <!--Table head-->
+                  
+                      <!--Table body-->
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Kate</td>
+                          <td>Moss</td>
+                          <td>USA / The United Kingdom / China / Russia </td>
+                          <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
+                          <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
+                          <td>23</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Anna</td>
+                          <td>Wintour</td>
+                          <td>USA / The United Kingdom / China / Russia </td>
+                          <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
+                          <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
+                          <td>36</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Jerry</td>
+                          <td>Horwitz</td>
+                          <td>USA / The United Kingdom / China / Russia </td>
+                          <td>New York City / Warsaw / Lodz / Amsterdam / London / Chicago</td>
+                          <td>Web Designer /UX designer / Ul designer / JavaScript Developer</td>
+                          <td>41</td>
+                        </tr>
+                      </tbody>
+                      <!--Table body-->
+                    </table>
+                    <!--Table-->
+                  </div>
+        
+            </div>
+            <!-- Panel 3 -->
+        
+        </div>
+        <!-- Tab panels -->
+    </div>
+    <!-- End your project here-->
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../../js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript" src="../../js/index.js"></script>
+    <script type="text/javascript">
+        $('.datepicker').datepicker({
+            inline: true
+        });
+    </script>
+  </body>
+</html>

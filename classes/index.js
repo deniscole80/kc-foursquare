@@ -1,0 +1,1 @@
+[{"firstname":"Collins","lastname":"Wilson","phone":"09096849272","email":"wilsoncollins44@yahoo.com","ageGroup":"11-20 years","gender":"male","kidsComing":"no","kidsNumber":"4","member":"No","district":"nonu","arrivalDate":"jjj","houseAccess":"hhh","anyAmount":"200","participantPayment":3200,"regType":"regular"}]

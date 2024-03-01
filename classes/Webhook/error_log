@@ -1,0 +1,12 @@
+[01-Jul-2022 12:07:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Webhook' not found in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php on line 3
+[01-Jul-2022 12:21:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Webhook' not found in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php on line 4
+[01-Jul-2022 12:24:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Webhook' not found in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/prink/public_html/foursquare.juvoserv.com/classes/Webhook/execute-webhook.php on line 4

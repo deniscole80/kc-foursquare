@@ -1,0 +1,31 @@
+[27-Jun-2023 07:46:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:46:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:46:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:47:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:47:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:47:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:47:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[27-Jun-2023 07:47:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/foursq19/public_html/kc/classes/FoodBoots.php on line 12
+[28-Jun-2023 08:36:07 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 10
+[28-Jun-2023 08:36:12 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 10
+[03-Jul-2023 09:22:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 10
+[13-Jul-2023 08:20:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:20:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[13-Jul-2023 08:21:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'foursq19'@'localhost' to database 'foursq19_foursquare.bak' in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:46:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Jul-2023 16:46:45 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[23-Jul-2023 18:43:27 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[23-Jul-2023 18:43:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[23-Jul-2023 18:43:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[23-Jul-2023 18:47:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[23-Jul-2023 18:48:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
+[19-Nov-2023 18:43:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home2/foursq19/public_html/kc/classes/DB/conn_db.php on line 21
